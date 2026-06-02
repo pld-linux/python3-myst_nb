@@ -2,19 +2,19 @@
 Summary:	A Jupyter Notebook Sphinx reader
 Summary(pl.UTF-8):	Biblioteka do czytania formatu Jupyter Notebook dla Sphinksa
 Name:		python3-%{module}
-Version:	1.3.0
+Version:	1.4.0
 Release:	1
-License:	MIT
+License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/myst_nb/
 Source0:	https://files.pythonhosted.org/packages/source/m/myst_nb/%{module}-%{version}.tar.gz
-# Source0-md5:	95273355f33700fcf162fd9caaef6da1
+# Source0-md5:	223d3d4503855c97a8787a53bc4435fb
 URL:		https://github.com/executablebooks/myst-nb
 BuildRequires:	python3-build
-BuildRequires:	python3-flit_core >= 3.4
+BuildRequires:	python3-flit_core >= 3.11
 BuildRequires:	python3-flit_core < 4
 BuildRequires:	python3-installer
-BuildRequires:	python3-modules >= 1:3.9
+BuildRequires:	python3-modules >= 1:3.10
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 2.044
 BuildArch:	noarch
